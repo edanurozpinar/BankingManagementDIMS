@@ -8,8 +8,6 @@ import javafx.scene.control.Alert.AlertType;
 
 public class CustomerService {
 
-
-
     public void saveCustomer(Customer customer) {
         if ( customer.getName().isEmpty() ||
                 customer.getAddress().isEmpty() || customer.getCity().isEmpty()) {

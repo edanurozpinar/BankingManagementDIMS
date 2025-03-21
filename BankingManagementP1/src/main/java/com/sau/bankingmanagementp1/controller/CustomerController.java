@@ -38,7 +38,7 @@ public class CustomerController {
         customer.setCity(cityField.getText());
 
         customerService.saveCustomer(customer);
-     
+
     }
 
     @FXML
